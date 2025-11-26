@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Dancing+Script:wght@500&family=Merriweather:ital,opsz@0,18..144;1,18..144&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+  --color-celtic-50: #f3faf4;
+--color-celtic-100: #e5f3e8;
+--color-celtic-200: #cbe7d2;
+--color-celtic-300: #a2d3ae;
+--color-celtic-400: #71b782;
+--color-celtic-500: #4d9a60;
+--color-celtic-600: #3c7d4c;
+--color-celtic-700: #32633e;
+--color-celtic-800: #2b5034;
+--color-celtic-900: #25422c;
+--color-celtic-950: #142c1b;
+
+--color-tan-50: #faf3dd;
+--color-tan-100: #f8edc9;
+--color-tan-200: #f3da95;
+--color-tan-300: #ecbe58;
+--color-tan-400: #e4a32b;
+--color-tan-500: #d58c1d;
+--color-tan-600: #b76b17;
+--color-tan-700: #924c16;
+--color-tan-800: #7a3d19;
+--color-tan-900: #68331b;
+--color-tan-950: #3c1a0c;
+
+--shadow-all-over: 0 2px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway-bold {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.dancing-script-regular {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.cormorant-upright-light {
+  font-family: "Cormorant Upright", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.cormorant-upright-regular {
+  font-family: "Cormorant Upright", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cormorant-upright-medium {
+  font-family: "Cormorant Upright", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.cormorant-upright-semibold {
+  font-family: "Cormorant Upright", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.cormorant-upright-bold {
+  font-family: "Cormorant Upright", serif;
+  font-weight: 700;
+  font-style: normal;
+}
