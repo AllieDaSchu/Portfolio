@@ -16,10 +16,10 @@ const Footer = () => {
                     </div>
                     <div className="flex flex-col pb-[10px] sm:pb-[0px]">
                         <h3 className="merriweather-regular text-xl">Resources and Contact</h3>
-                        <a className="cursor-default" href="/resume.pdf" target="_blank" rel="noopener noreferrer"><p className="cursor-pointer inline-block"><FontAwesomeIcon icon={faPaperclip} className="pr-[5px]" />Resume</p></a>
-                        <a className="cursor-default" href="https://github.com/AllieDaSchu?tab=repositories"><p className="cursor-pointer inline-block"><FontAwesomeIcon icon={faGithub} className="pr-[5px]" />GitHub</p></a>
-                        <a className="cursor-default" href="https://www.linkedin.com/in/allison-schuliger/"><p className="cursor-pointer inline-block"><FontAwesomeIcon icon={faLinkedin} className="pr-[5px]" />LinkedIn</p></a>
-                        <a className="cursor-default" href="mailto:aschuliger@gmail.com"><p className="cursor-pointer inline-block"><FontAwesomeIcon icon={faEnvelope} className="pr-[5px]" />aschuliger@gmail.com</p></a>
+                        <a className="cursor-default" href="/Portfolio/resume.pdf" target="_blank" rel="noopener noreferrer"><p className="cursor-pointer inline-block hover:underline"><FontAwesomeIcon icon={faPaperclip} className="pr-[5px]" />Resume</p></a>
+                        <a className="cursor-default" href="https://github.com/AllieDaSchu?tab=repositories"><p className="cursor-pointer inline-block hover:underline"><FontAwesomeIcon icon={faGithub} className="pr-[5px]" />GitHub</p></a>
+                        <a className="cursor-default" href="https://www.linkedin.com/in/allison-schuliger/"><p className="cursor-pointer inline-block hover:underline"><FontAwesomeIcon icon={faLinkedin} className="pr-[5px]" />LinkedIn</p></a>
+                        <a className="cursor-default" href="mailto:aschuliger@gmail.com"><p className="cursor-pointer inline-block hover:underline"><FontAwesomeIcon icon={faEnvelope} className="pr-[5px]" />aschuliger@gmail.com</p></a>
                     </div>
                 </div>
                 <p className="merriweather-regular text-center pt-[30px]">Allison Schuliger - © 2025</p>

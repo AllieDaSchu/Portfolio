@@ -8,11 +8,22 @@ import hardiman from "../assets/hardiman-home.png"
 import hoskins from "../assets/hoskins-home.png"
 import NoT from "../assets/not-home.png"
 import tbs from "../assets/tbs-home.png"
+import animalShelter from "../assets/animal-shelter-home.png"
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faArrowRightLong} from '@fortawesome/free-solid-svg-icons'
 
 
 const projects = [
+    {
+        title: "Animal Shelter Website",
+        image: animalShelter,
+        link: "https://alliedaschu.github.io/honda-recreation/",
+        types: [
+            "Next.js",
+            "JavaScript",
+            "TailwindCSS"
+        ],
+    },
     {
         title: "Honda Website Recreation",
         image: hondaWebsite,
@@ -20,6 +31,7 @@ const projects = [
         types: [
             "React",
             "Vite",
+            "JavaScript"
         ],
     },
     {

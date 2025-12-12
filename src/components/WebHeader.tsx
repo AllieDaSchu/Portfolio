@@ -1,4 +1,3 @@
-
 const WebHeader = () => {
     
     return (
@@ -10,7 +9,7 @@ const WebHeader = () => {
                 </div>
                 <p className="max-w-[1000px] pb-[30px] raleway-regular m-auto">Throughout my time at Purdue, I have had many opportunities to 
                     design and develop a wide variety of websites. Below are a handful 
-                    of my major projects, with more projects to come.
+                    of my major projects, with more projects to come. To view my other programming projects, take a look at my <a href="https://github.com/AllieDaSchu?tab=repositories" target="_blank" rel="noopener noreferrer" className="underline text-[#0000EE] hover:text-[#0101A2]">GitHub Repositories</a>.
                 </p>
             </div>
         </>

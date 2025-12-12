@@ -98,7 +98,7 @@ const Experience = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className={`${open === index ? "max-h-[670px] sm:max-h-[370px] md:max-h-[320px] lg:max-h-[250px]" : "max-h-[0]"} overflow-hidden transtion-all duration-500 ease-in-out whitespace-nowrap raleway-regular bg-celtic-600 rounded-xl px-[20px] mt-[10px] text-white`}>
+                            <div className={`${open === index ? "max-h-[670px] sm:max-h-[370px] md:max-h-[320px] lg:max-h-[260px]" : "max-h-[0]"} overflow-hidden transtion-all duration-500 ease-in-out whitespace-nowrap raleway-regular bg-celtic-600 rounded-xl px-[20px] mt-[10px] text-white`}>
                                 <p className="py-[10px] text-wrap"><FontAwesomeIcon icon={faUserGroup} className="pr-[10px]" />{item.company}</p>
                                 <p className="pb-[10px] text-wrap">{item.desc}</p>
                                 <div className="flex pb-[10px] gap-[5px] flex-wrap">
